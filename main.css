@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    margin-top: 64px;
+}
+
+h1,
+h2{
+    margin: 0 24px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+}
+
+input, 
+textarea,
+button{
+    padding: 8px;
+    margin: 8px 0;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    background-color: rgb(29, 155, 29);
+    border: 0;
+    color: aliceblue;
+    font-size: large;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: darkgreen;
+}
+
+.msgErro{
+    display: none;
+    background-color: rgb(153, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 0 32px;
+}
+
+.msgSucesso{
+    display: none;
+    background-color: rgb(5, 179, 194);
+    color: white;
+    text-align: center;
+    margin: 0 32px;
+    animation: backwards;
+}
